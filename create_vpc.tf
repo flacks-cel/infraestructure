@@ -1,4 +1,5 @@
-# Criação da VPC principal
+# Criação da VPC principal Desafio Técnico - datacosmos
+
 resource "aws_vpc" "main" {
   cidr_block           = "172.31.0.0/16"
   instance_tenancy     = "default" # Alterado para default, mais econômico

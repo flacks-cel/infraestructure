@@ -1,5 +1,5 @@
 #!/bin/bash
-# Atualizar pacotes
+# Atualizar pacotes Desafio Técnico - datacosmos
 yum update -y
 
 # Instalar Apache

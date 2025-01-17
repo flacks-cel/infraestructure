@@ -1,4 +1,4 @@
-# Criação de um bucket S3
+# Criação de um bucket S3 - Desafio Técnico - datacosmos
 resource "aws_s3_bucket" "meu_bucket" {
   bucket = "grupo01-bucket-cloud" # Nome único e válido do bucket
   acl    = "private"              # Define o acesso como privado
